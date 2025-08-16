@@ -1,0 +1,98 @@
+*{box-sizing: border-box;}
+body {
+    margin: 0;
+    font-family: "Aubrey", system-ui;
+}
+#hero {
+    width: 100%;
+    background-color: #510682;
+    color: #fff;
+    height: 50vh;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+#columns {
+    width:100%;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: flex-start;
+}
+#column1 {
+    width: 25vw;
+    height: 100vh;
+    margin-right: 10vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#column1>img {
+    background-color: #000;
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+    object-fit: cover;
+}
+#column1 ul {
+    width: 100%;
+    justify-content: flex-start;
+    list-style: circle;
+    margin: 0;
+}
+#column2 {
+    width: 30vw;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#name {
+    color:#fff;
+}
+#data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 7.5vh;
+    color:#fff;
+}
+#contentlist {
+    color: #444;
+}
+#contentlist section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#contentlist h1 {
+    margin-bottom: 20px;
+    color: #000;
+}
+#contentlist h2 {
+    margin: 2px;
+    font-size: 1.4em;
+    color: #000;
+}
+#contentlist h3 {
+    margin: 2px;
+}
+#contentlist h4 {
+    margin: 0;
+}
+#contentlist h5 {
+    margin: 0;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+#contentlist ul {
+    padding-left: 20px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+#contentlist li {
+    margin: 0;
+}
+
